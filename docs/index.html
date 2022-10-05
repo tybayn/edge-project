@@ -1,1 +1,555 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link rel="icon" href="assets/images/favicon.ico">
+<title>Ty Bayn | EDGE Project</title>
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/color-green.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+		<!-- Logo --> 
+        <a class="logo ml-md-3" href="https://tybayn.github.io"> <img src="assets/images/black-icon-logo.png" alt="Zero-Network Logo" height="60px"/> </a> 
+		<span class="text-2 ml-2">v1.0</span> 
+        <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation bg-dark docs-navigation-dark">
+    <ul class="nav flex-column ">
+      <li class="nav-item"><a class="nav-link active" href="#project">EDGE Project</a></li>
+      
+      <li class="nav-item"><a class="nav-link active" href="#start">Getting Started</a>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="#installation">Installation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#prerequisites">Prerequisites</a></li>
+          <li class="nav-item"><a class="nav-link" href="#how_to">Using the Software</a></li>
+          <li class="nav-item"><a class="nav-link" href="#agreement">Agreement</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link active" href="#intro">About the Project</a>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="#description">Project Description</a></li>
+          <li class="nav-item"><a class="nav-link" href="#design">Design Docs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#timeline">Timeline and Updates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#final">Final Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#demo">Video Demo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reflection">Reflection</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <section id="project">
+          <h1>EDGE Project</h1>
+          <h2>AI Recognition: Photo and Voice Recognition</h2>
+          <p class="lead">Southern Utah University Junior/Senior EDGE Project (2019)</p>
+          <hr>
+          <div class="row">
+            <div class="col-sm-6 col-lg-4">
+              <ul class="list-unstyled">
+                <li><strong>Version:</strong> 1.0</li>
+                <li><strong>Author:</strong> <a href="https://www.linkedin.com/in/ty-bayn/" target="_blank">Ty Bayn</a></li>
+                <li><strong>Github:</strong><a href="https://github.com/tybayn/edge-project" target="_blank"> tybayn/edge-project</a></li>
+                <li><strong>Languages:</strong> C#</li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <ul class="list-unstyled">
+                <li><strong class="font-weight-700">Created:</strong> 2019-06-02</li>
+                <li><strong>Update:</strong> 2022-10-04</li>
+                <li><strong class="font-weight-700">License:</strong><a href="https://choosealicense.com/licenses/mit/" target="_blank"> MIT</a></li>
+              </ul>
+            </div>
+          </div>
+          <p>Junior/Senior Year EDGE Project (SUU 2019): Photo and Voice Recognition software intended to be a very basic Artificial Intelligence with basic Machine Learning.</p>
+          <p>The software is a Visual Studio Project written in C#. It utilizes a microphone and camera in order to learn people's faces and names. Once a person is added it will attempt to remember that individual the next time it sees them.</p>
+          <p>This software is currently only designed for Windows systems, specifically Windows 10 with .NET.</p>
+        </section>
+
+        <hr class="divider">
+
+        <section id="start">
+          <h2>Getting Started</h2>
+        </section>
+
+        <section id="installation">
+          <h3>Installation</h3>
+          <p>Clone or fork <a href="https://github.com/tybayn/edge-project" target="_blank">tybayn/edge-project</a> to your local machine. Extract the files if necessary.</p>
+        </section>
+
+        <hr class="divider">
+
+        <section id="prerequisites">
+          <h3>Prerequisites</h3>
+          <h4>Compiler</h4>
+          <p>This software was built in the Microsoft Visual Studio Community 2019 IDE, and is intended to be compiled in the same IDE. It will likely work with newer versions of the same software.</p>
+          <p>Opening "tybaynEDGEproject.sln" will open the entire solution.</p>
+          <h4>External Libraries</h4>
+          <p>Many parts of this software are linked to or dependent on other libraries and source code. Any source code that is not compatible with the MIT license directly has been excluded from this repository and must be downloaded/included separately.</p>
+          <p>Any and all external libraries are owned and copyrighted by their respective authors and licensed under their respective licenses and ARE NOT included under the MIT license of this repository. They are used in an unaltered state and simply linked to.</p>
+          <h4>Excluded NuGet Packages</h4>
+          <p>The following libraries can simply be added using Visual Studio's NuGet Package manager:</p>
+          <ul>
+            <li>Accord.NET (v3.8.0) -by Accord.NET</li>
+            <li>Accord.Vision (v3.8.0) -by Accord.NET</li>
+            <li>NAudio (v1.10.0) -by Mark Heath</li>
+          </ul>
+          <h4>Excluded Third Party Libraries</h4>
+          <p>The following are not available on NuGet and the .dll should be downloaded and linked within Visual Studio:</p>
+          <ul>
+            <li>XNAFan.ImageComparison -by Jakob Farian Krarup</li>
+            <ul>
+              <li>Available From: <a href="https://www.codeproject.com/KB/graphics/374386/JustTheDll_1.6.zip">https://www.codeproject.com/KB/graphics/374386/JustTheDll_1.6.zip</a></li>
+              <li>File Needed: XNAFan.ImageComparison.dll</li>
+            </ul>
+          </ul>
+          <h4>Included Third Party Libraries</h4>
+          <p>The "WebCam_Capture.dll" library is licensed under MIT and is included. It is in "tybaynEDGEproject/lib/WebCam_Capture.dll" and just needs to be linked within Visual Studio.</p>
+          <h4>NOTICE</h4>
+          <p>PLEASE READ THE "NOTICE" DOCUMENT FOR MORE INFORMATION ON THE EXTERNAL LIBRARIES REFERENCED AND THEIR LICENSING.</p>
+          <h4>File Structure</h4>
+          <p>Ensure that the following file structure is maintained as the project is downloaded:</p>
+          <pre><code class="shell">
+tybaynEDGEproject.sln
+tybaynEDGEproject/
+|  App.config
+|  AudioCompareHandler.cs
+|  AudioHandler.cs
+|  FileHandler.cs
+|  Form1.cs
+|  Form1.Designer.cs
+|  Form1.resx
+|  Helper.cs
+|  PitchShift.cs
+|  Program.cs
+|  tybaynEDGEPproject.csproj
+|  VideoCompareHandler.cs
+|  VideoHandler.cs
+|  WaveFormVisualizer.cs
+|  WebCam.cs
+|
+└──bin/
+|  └──data/
+|  |  └──resources/
+|  |  |  |  faceOverlay.png
+|  |  |
+|  |  ...
+|  ...
+|
+└──lib/
+|  |  WebCam_Capture.dll
+|
+...
+          </code></pre>
+        </section>
+
+        <hr class="divider">
+
+        <section id="how_to">
+          <h3>Using the Software</h3>
+          <p>This project is intended to be run with Visual Studio. To run the software, open the 'tybaynEDGEproject.sln' in Visual Studio and run the project from there.</p>
+        </section>
+
+        <hr class="divider">
+
+        <section id="agreement">
+          <h3>Agreement</h3>
+          <p>By using this software you confirm that you have read this document, the NOTICES file pertaining to external and excluded libraries, and the LICENSE document and agree to all the terms within.</p>
+        </section>
+        
+      <hr class="divider">
+
+      <section id="intro">
+        <h2>About the Project</h2>
+        <p>This next section is the documents and research done regarding the project required by the University (literally, all of it). So unless you enjoy walls of text and what essentially amounts to journal entries, then you are good to leave at this point!</p>
+      </section>
+		
+        <section id="description">
+          <h3>Project Description</h3>
+          <p>For this project I will design, create, and code an Artificial Intelligence (AI) written in C# (.NET framework). This artificial intelligence will be able to record a person's face and voice and remember them. Then at a later time be able to recall that data and be able to compare it to a live feed of a person's face and voice and compare the two sources to see if they match.</p>
+          <p>This project encompasses ideas of self learning and the ability of a computer to recognize valid input apart from invalid input. To see the full project description, all the steps along the way, the final product, and my reflections about the project, see the sections below.</p>
+          <h4>Abstract</h4>
+          <p>For my EDGE project I will design, create, and code an Artificial Intelligence (AI) written in C#. This artificial intelligence will be able to record a person's face and voice and remember them. Then at a later time be able to recall that data and be able to compare it to a live feed of a person's face and voice and compare the two sources to see if they match. This AI will allow for the personal discovery of how data is represented and stored in a computer, how to compare audio and video as it is represented in a computer, and how AI’s can be used in different scenarios and for different purposes. I plan to build this AI to prove to myself that I have the ability to learn and push myself further than what is required and be able to use this as a standout point on my resume. This will also allow me to have an experience in programming something that is greatly needed in the work world, but not largely taught in universities.</p>
+          <h4>Larger Purpose</h4>
+          <p>I have chosen to build this project to give me experience in writing, coding, and creating an Artificial Intelligence. It will allow me to gain an understanding of how computers view live images and digital conversions of analog audio and how to compare them.</p>
+          <h4>Project Goal</h4>
+          <p>For my EDGE project I will create an Interactive Artificial Intelligence that will correctly identify and recognize faces and voice (video and audio). The AI will compare live audio feed from a microphone and live video feed from a webcam and compare it to stored audio and video files. The AI will be able to learn new people and recognize them later.</p>
+          <h4>Outcomes</h4>
+          <ul>
+            <li>If I create an AI that can prompt for and record new people, then I will have a better understanding of machine learning and how computers “remember” data and how that data is represented in a computer.</li>
+            <li>If I create an AI, then I begin to understand the usefulness and applications of different kinds of AI’s.</li>
+          </ul>
+          <h4>Deliverables</h4>
+          <p>I will deliver a zip file that contains the actual AI software executable files alongside all the needed dependency files and “memory” files. I will also provide the paperwork with the design process and any subprograms used for testing functionality of parts of the software.</p>
+          <h4>Differentiation</h4>
+          <p>Artificial Intelligence is not a subject that is taught at SUU or many other universities. But the ideas of each of those topics are needed greatly. By creating an AI I will be able to have a deeper understanding of a topic that is largely expanding and companies of all types are starting to look toward to optimize and accelerate processes. With this project I will be able to include AI creation on my resume and have a starting ground when I need to create other AI’s in the future.</p>
+          <h4>Estimated Timeline</h4>
+          <ul>
+            <li><strong>05/06/2019</strong> - Begin Project</li>
+            <li><strong>05/12/2019</strong> - Complete layout of software and flowcharting</li>
+            <li><strong>05/19/2019</strong> - Finish UI/UX and GUI Design</li>
+            <li><strong>06/02/2019</strong> - Complete Image and Audio recording software</li>
+            <li><strong>06/16/2019</strong> - Complete Complete Image and Audio comparison software</li>
+            <li><strong>06/19/2019</strong> - Complete Text to Voice software</li>
+            <li><strong>06/25/2019</strong> - Finish Driver Program</li>
+            <li><strong>06/27/2019</strong> - Debugging and Testing</li>
+            <li><strong>06/28/2019</strong> - Complete Project</li>
+          </ul>
+          <p>This section simply depicts the expected timeline and design requirements. The actual timeline and design documents are outlined below.</p>
+          
+        </section>
+
+        <hr class="divider">
+
+        <section id="design">
+          <h2>Design Docs</h2>
+          <h3>Flowchart:</h3>
+          <img src="assets/images/flowchart.png"/>
+
+          <h3>Pseudocode:</h3>
+          <p>Audio Comparator</p>
+          <pre><code class="shell">
+Compare Audio{
+  -Will receive two samples and will use .NET
+  library to compare the wavelengths
+  -Returns a double from 0 - 1 of the percentage
+  value of how similar they are
+}
+          </code></pre>
+          <p>Audio Handler</p>
+          <pre><code class="shell">
+​Initialize Microphone{
+   -Call existing library to start live feed
+   -Put data into Global Variable
+  }
+  Adjust {
+   -Receives volume to adjust the microphone object
+  }
+  Display Thread{
+   -While(true){
+    -Get audio from microphone
+    -Display waveform to gui display
+    -Refresh gui
+   }
+  }
+  Get sample{
+   -Get audio from microphone
+   -Store in temporary memory
+   -Return audio (or audio address)
+  }
+  Start New User{
+   -Display sentence to screen
+   -Get audio from microphone
+   -Return audio (or audio address)
+}
+          </code></pre>
+          <p>Data Handler</p>
+          <pre><code class="shell">
+Constructor{
+   -Create Video Comparator
+   -Create Audio Comparator
+}
+Store Image{
+   -Receives image
+   -Stores image data (maybe with tree?)
+   -Associate image with name
+}
+Store audio{
+   -Receives sample
+   -Stores sample data
+   -Associate sample with name
+}
+Compare Video{
+   -Passes image to Video Comparator
+   -Returns true or false
+}
+Compare Audio{
+   -Passes sample to audio Comparator
+   -Returns true or false
+}
+          </code></pre>
+          <p>Driver</p>
+          <pre><code class="shell">
+Main{
+   -Create Data Handler
+   -Create Audio Handler
+   -Create Video Handler
+   -Start running Listening Thread
+}
+Listen Thread{
+ -While(true){
+  -Get image from webcam
+  -If( image contains a new form)
+   -Prompt User to speak sentence or say name
+   -Call Video Comparator to see if image matches
+   -If(image is not found)
+    -Goto Add new user
+   -Else
+    -Call Audio Comparator for audio matches
+    -If( audio is not found)
+     -Goto Add new user
+    -Else
+     -Get user name
+     -Prompt user if they are this person
+     -If(not the user)
+      -Goto Add new User
+ -}
+}
+Add new User{
+ -Prompt user if they want to be added
+ -If( they want to be added)
+  -Prompt User for Name
+  -Have user line up on camera, take photo
+  -Have user say their name/sentence
+  -Call Data Storage to store name, image, and audio
+ -return
+}
+Speech to text{
+ -Receives a string passes it to the speech to text handler
+}   
+          </code></pre>
+          <p>Speech to Text</p>
+          <pre><code class="shell">
+Speak{
+ -Receives a string and uses the .NET library to
+ -convert it to an audio clip
+}
+          </code></pre>
+          <p>Video Comparator</p>
+          <pre><code class="shell">
+Compare Video{
+ -Will receive two photos and will use the .NET video
+ compare library to compare them
+ -Returns a double from 0 – 1 of the percentage value of
+ how similar they are.
+}
+          </code></pre>
+          <p>Video Handler</p>
+          <pre><code class="shell">
+Initialize Camera{
+ -Call existing library to start live feed
+ -Put data into Global Variable
+}
+Adjust {
+ -Reinitialize the camera to adjust for light and focus
+}
+Display Thread{
+ -While(true){
+  -Get image from camera
+  -Display image to gui display
+  -Refresh gui
+ }
+}
+Get image{
+ -Get image from camera
+ -Store in temporary memory
+ -Return image (or image address)
+}
+Start New User{
+ -Place face template over camera image
+ -Get image from camera
+ -Return image
+}
+          </code></pre>
+          
+          <h3>GUI Design:</h3>
+          <p>GUI Design 1 (Wireframe)</p>
+          <img src="assets/images/gui_layout.png"/><br><br>
+          <p>GUI Design 2 (Wireframe)</p>
+          <img src="assets/images/gui_layout_2.png"/>
+          
+        </section>
+
+        <hr class="divider">
+
+        <section id="timeline">
+          <h2>Timeline and Updates</h2>
+          <p><u>05/06/2019</u></p>
+          <ul>
+            <li>Created flowchart Diagram</li>
+          </ul>
+          <p><u>05/08/2019</u></p>
+          <ul>
+            <li>​Wrote Class Pseudocode and Started Gui Sketches</li>
+          </ul>
+          <p><u>05/13/2019</u></p>
+          <ul>
+            <li>​Started Building Gui, researched Webcam and waveform libraries</li>
+          </ul>
+          <p><u>05/14/2019</u></p>
+          <ul>
+            <li>GUI Created, start implementing Graphical representations of live audio and live video, both are now in the gui.</li>
+          </ul>
+          <p><u>05/15/2019</u></p>
+          <ul>
+            <li>Modularized code, took audio code and create the audio handler class, took the video code and created the video handler class. Ensured that parts were modular and loosely coupled. Started research on face detection.</li>
+          </ul>
+          <p><u>05/16/2019</u></p>
+          <ul>
+            <li>Working on Voice to speech. Ran into a few unexpected issues with being able to have the mic muted but speech not. Compatibility issues with text to speech, scrapping feature. Attempting to fix threading issue with audio capture.</li>
+          </ul>
+          <p><u>05/20/2019</u></p>
+          <ul>
+            <li>Fixed threading issue with both video and audio capture. Added new buttons to the front panel. Started working on and finished the data control class. Started working on the video comparison class and finding a library to tell me if a face in two separate photos are the same person.</li>
+          </ul>
+          <p><u>05/22/2019</u></p>
+          <ul>
+            <li>Added a capture button and a face template to the GUI. Also changed the boundaries of face recognition, faces must be within the boundary in order for the recognition to start the compare procedure. This resulted in needing a mirror instead of natural feed. Face comparison class is nearly complete, will change as we finish testing. Started on audio comparison.</li>
+          </ul>
+          <p><u>05/23/2019</u></p>
+          <ul>
+            <li>Started working on the ability to add new people and started to finalize the process for comparing people. Still researching FFT from wav and audio comparisons. Audio recordings are already implemented, but they are not being compared while testing.</li>
+          </ul>
+          <p><u>05/24/2019</u></p>
+          <ul>
+            <li>I started working on the audio comparisons. The FFT comparisons are still largely being developed and I don't want to put too much time into this project or do a PhD yet. So I will be using a different method to test audio. I am going to look into converting the wav files to strings using speech-to-text, and then comparing the strings</li>
+          </ul>
+          <p><u>05/26/2019</u></p>
+          <ul>
+            <li>I got the audio comparisons working, and small testing is showing that it is working. I got that part imported into the main program, the driver is also complete now. The comparison function now utilizes both the video and audio comparison functions. Commenting and inline documentation is done.</li>
+          </ul>
+          <p><u>05/27/2019</u></p>
+          <ul>
+            <li>I started doing testing with more people, the face recognition works surprisingly well, but the voice does not. It seems to have too much background static for the Speech-to-Text to work.</li>
+          </ul>
+          <p><u>05/29/2019</u></p>
+          <ul>
+            <li>Doing some research on how to fix the Speech-to-Text issue, will try changing the recording data from 8-bit to 16-bit and from stereo to mono.</li>
+          </ul>
+          <p><u>06/02/2019</u></p>
+          <ul>
+            <li>Doing some final testing. Checking if the new settings to the microphone will be helping. - The settings do help, but we needed to create new audio files where the pitch is shifted down, that way people with higher voices can be recognized as well. After this change, the testing went smoothly. The AI was able to correctly identify people about 90% of the time. Given there are only 2 of us that are testing.</li>
+          </ul>
+          <p><u>06/02/2019</u></p>
+          <ul>
+            <li>Testing is complete. Got files ready for Turn In. Made video to showcase project.</li>
+          </ul>
+        </section>
+
+        <hr class="divider">
+
+        <section id="final">
+          <h2>Final Product</h2>
+          <p>The actual code and software project are located on my GitHub account. <a href="https://github.com/tybayn/edge-project" target="_blank"> tybayn/edge-project</a></p>
+        </section>
+
+        <hr class="divider">
+
+        <section id="demo">
+          <h2>Video Demo</h2>
+          <iframe width="1120" height="660" src="https://www.youtube.com/embed/2nQyLiyfIrI" title="Ty Bayn EDGE Project (SUU 2019)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <hr class="divider">
+
+        <section id="reflection">
+          <h2>Reflection</h2>
+          <p>This was one of my first big projects that I did by myself with no guidance or requirements. It allowed my to branch out and to figure out what I know, what I was able to learn, and what I still need to work on. In the end, I am proud of the results and the software created.</p>
+          <p>I have found that this maybe truly isn't an AI, but more a machine learning in its most basic definition. I still have a lot to learn, but I found this project to be enjoyable.</p>
+        </section>
+		  
+		  <hr class="divider">
+		  
+          <h3 id="v1-0">Version 1.0 <small class="text-muted">(2 June, 2019)</small></h3>
+          <p>Initial Release</p>
+        </section>        
+        
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+        <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <p class="text-center">Copyright &copy; 2020 <a href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">iDocs</a>. All Rights Reserved.</p>
+	  <p class="text-2 text-center mb-0">Design &amp; Develop by <a class="btn-link" target="_blank" href="http://www.harnishdesign.net/">HarnishDesign</a>.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
